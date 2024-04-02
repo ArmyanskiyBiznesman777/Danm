@@ -1,0 +1,26 @@
+
+.animated-backgraund {
+    background-image: url('"C:\Users\erikt\Downloads\strawberry.jpg"');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: slideshow 10s infinite;
+}
+@keyframes slideshow {
+    0% {
+        background-image: url('"C:\Users\erikt\Downloads\strawberry.jpg"');
+    }
+    33% {
+        background-image: url('"C:\Users\erikt\Downloads\strawberry2.jpg"');
+    }
+    66% {
+        background-image: url('"C:\Users\erikt\Downloads\currants.jpg"');
+    }
+    100% {
+        background-image: url('"C:\Users\erikt\Downloads\strawberry.jpg"');}
+    }
